@@ -88,6 +88,11 @@ button{
   overflow: auto;
   position: absolute;
 }
+.bocadillo{
+  opacity: 0;
+  width: 0px;
+  height: 0px;
+}
 @media only screen and (max-width: 600px) {
   #menu{
     width: 1%;
