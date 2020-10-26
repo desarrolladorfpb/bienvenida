@@ -99,7 +99,11 @@ button{
     height: 40px;
     z-index: 99999;
     position: absolute;
-    background:palegreen ;
+  }
+  .logo{
+    text-align: center;
+    font-size: 6vw;
+    color: palegreen;
   }
   #container{
     left: 3%;
