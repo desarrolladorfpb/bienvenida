@@ -60,6 +60,7 @@ button{
 }
 .logo{
   text-align: center;
+  cursor: pointer;
   font-size: 2vw;
   color: palegreen;
 }
@@ -82,6 +83,7 @@ button{
 #container{
   height: 100%;
   left:21%;
+  scroll-behavior: smooth;
   width: 79%;
   text-align: left;
   

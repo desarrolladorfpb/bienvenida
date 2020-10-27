@@ -12,25 +12,25 @@ function App() {
     <div className="App">
       <div  id="bocadillo" className="bocadillo"><img src="/menu.svg"></img></div>
       <div id="menu">
-        <div class="logo">Manual de bienvenida</div>
+        <div id="logo" className="logo">Manual de bienvenida</div>
         <hr></hr>
-        <button id="botonIntro" class="boton_menu">1. Introducción</button><br></br>
+        <button id="botonIntro" className="boton_menu">1. Introducción</button>
         <hr></hr>
-        <button id="botonFilo" class="boton_menu">2. Filosofía de la empresa</button>
+        <button id="botonFilo" className="boton_menu">2. Filosofía de la empresa</button>
         <hr></hr>
-        <button id="botonprimerdia" class="boton_menu">3. Mi primer día de trabajo</button>
+        <button id="botonprimerdia" className="boton_menu">3. Mi primer día de trabajo</button>
         <hr></hr>
-        <button id="botoncomotrabajar"  class="boton_menu">4. Cómo trabajar</button>
+        <button id="botoncomotrabajar"  className="boton_menu">4. Cómo trabajar</button>
         <hr></hr>
-        <button id="botoncovid" class="boton_menu">5. Covid</button>
+        <button id="botoncovid" className="boton_menu">5. Covid</button>
       </div>
       <div id="container">
         <LottieWelcome></LottieWelcome>
       <div className="titulo">¡Bienvenido a la empresa!</div>
       <div className="subtitulo">Aquí encontrarás información relevante.</div>
       <div id="intro" className="seccion_titulo">1. Introducción</div>
-      
-      <div class="subseccion_titulo">1.1. presentación.</div>
+      <br></br><br></br>
+      <div className="subseccion_titulo">1.1. Presentación.</div>
       ¡Hola, bienvenido/a a nuestro equipo!
       <br></br><br></br>Hoy, queremos darte la bienvenida a nuestro equipo y desearte mucha suerte en esta nueva etapa profesional.
       <br></br><br></br>Este manual está pensado para ti, para que como nuevo integrante de nuestra empresa, dispongas de toda la información que necesites en tu nuevo puesto de trabajo.
@@ -44,21 +44,22 @@ function App() {
       <br></br><br></br>Te animamos a seguir leyendo este manual y esperamos que te sientas agusto con nosotros.
       <br></br><br></br>
       <LottieValores></LottieValores>
-      <div id="filosofia" class="seccion_titulo">2. Filosofía de la empresa</div>
-      <div class="subseccion_titulo">2.1. Valores de la empresa.</div>
-      <div class="subseccion_descripcion">Queremos que los nuevos miembros sepan nuestros valores los cuales defendemos hasta último término. A continuación numeraremos cada uno:
-      <br></br><br></br><span class="tabulador"><span class="negrita">1.	Honestidad:</span> la transparencia, la sinceridad y la franqueza es una responsabilidad nuestra para con los empleados y esperamos lo mismo de ellos.
-      <br></br><span class="negrita">2.	Calidad:</span> Intentamos que los productos cumplan siempre con los parámetros establecidos y prometidos.
-      <br></br> <span class="negrita">3.	Puntualidad:</span> nos gusta que nuestros productos estén a tiempo.
-      <br></br> <span class="negrita">4.	Respeto al cliente:</span> nuestros clientes son nuestros sustentadores es necesario darle el debido respeto y cualquier falta se estudiará, también somos conscientes de que pueden existir clientes difíciles si es el caso trata de contarlo cuanto antes.
-      <br></br><span class="negrita">5.	Pasión:</span> disfrutamos lo que hacemos y esperamos que nuestros empleados sientan lo mismo asi que si tienes algún proyecto que te desmotiva no dudes en contactar con nosotros
-      <br></br> <span class="negrita">6.	Trabajo en equipo:</span> una parte muy importante de todas las empresas es un sano trabajo en equipo. Queremos que rápidamente entres en nuestro grupo y haya una buena sinergía desde pronto, todos velaremos por ello.
-      <br></br> <span class="negrita">7.	Responsabilidad social:</span> estamos muy conscienciado con la sociedad en la empresa y queremos que nuestros productos sean alcanzables por todos de alguna u otra forma.
+      <div id="filosofia" className="seccion_titulo">2. Filosofía de la empresa</div>
+      <br></br><br></br>
+      <div className="subseccion_titulo">2.1. Valores de la empresa.</div>
+      <div className="subseccion_descripcion">Queremos que los nuevos miembros sepan nuestros valores los cuales defendemos hasta último término. A continuación numeraremos cada uno:
+      <br></br><br></br><span className="tabulador"><span className="negrita">1.	Honestidad:</span> la transparencia, la sinceridad y la franqueza es una responsabilidad nuestra para con los empleados y esperamos lo mismo de ellos.
+      <br></br><span className="negrita">2.	Calidad:</span> Intentamos que los productos cumplan siempre con los parámetros establecidos y prometidos.
+      <br></br> <span className="negrita">3.	Puntualidad:</span> nos gusta que nuestros productos estén a tiempo.
+      <br></br> <span className="negrita">4.	Respeto al cliente:</span> nuestros clientes son nuestros sustentadores es necesario darle el debido respeto y cualquier falta se estudiará, también somos conscientes de que pueden existir clientes difíciles si es el caso trata de contarlo cuanto antes.
+      <br></br><span className="negrita">5.	Pasión:</span> disfrutamos lo que hacemos y esperamos que nuestros empleados sientan lo mismo asi que si tienes algún proyecto que te desmotiva no dudes en contactar con nosotros
+      <br></br> <span className="negrita">6.	Trabajo en equipo:</span> una parte muy importante de todas las empresas es un sano trabajo en equipo. Queremos que rápidamente entres en nuestro grupo y haya una buena sinergía desde pronto, todos velaremos por ello.
+      <br></br> <span className="negrita">7.	Responsabilidad social:</span> estamos muy conscienciado con la sociedad en la empresa y queremos que nuestros productos sean alcanzables por todos de alguna u otra forma.
       </span><br></br><br></br>Estos son los valores más importantes en la empresa y los que más buscamos en nuestros empleados, esperamos que lo encuentres de tu agrado y si crees que algo se puede cambiar o falta algo puedes decirlo, valoramos mucho las sugerencias.
       </div>
       <br></br><br></br>
-      <div class="subseccion_titulo">2.2. Reacción ante fallos.</div>
-      <div class="subseccion_descripcion">
+      <div className="subseccion_titulo">2.2. Reacción ante fallos.</div>
+      <div className="subseccion_descripcion">
       Si tienes errores o “metes la pata” no queremos que te preocupe, y preferimos a que hagas algo a que no lo hagas por mierdo a que no esté corrector. Errar es humano, hasta en la directiva ocurre. No podriamos esperar un buen trabajador si tuviera miedo a equivocarse, queremos que tengas total libertad para ello.
       <br></br><br></br>Equivocarse no es más que una forma de aprender, se te dirá tu error pero no en forma de reprimenda ni mucho menos, si no para que puedas aprender de ello y verás como poco a poco los errores empiezan a ser menos frecuentes.
       <br></br><br></br>Hay muchas formas de fracasar, en ningún caso el error es un fracaso, el fracaso está en no aprender de ello.
@@ -66,39 +67,41 @@ function App() {
       <br></br><br></br>Nadie ha sido expulsado nunca por un error.
       </div>
       <br></br><br></br>
-      <div class="subseccion_titulo">2.3. colaboración en equipo.</div>
+      <div className="subseccion_titulo">2.3. Colaboración en equipo.</div>
       Trabajar en equipo permite que los empleados sean más rápidos y efectivos en su trabajo, por eso en nuestra empresa promovemos la colaboración entre nuestros trabajadores.
       <br></br><br></br>Para ello debes mantener un buen trato con tus compañeros, escuchar con atención las opiniones de los demás y respetarlas.
       <br></br><br></br>Si te surge alguna duda puedes consultar a cualquiera de tus compañeros y ellos se encargarán de ayudarte.
       <br></br><br></br>Todos los miembros del equipo trabajan hacia el logro de una misma meta pensando, intercambiando ideas y ofreciendo diferentes perspectivas para brindar soluciones. Cada miembro tiene oportunidades equitativas de participar y comunicar sus ideas.
       <br></br><br></br>
-      <div class="subseccion_titulo">2.4. gestión conflictos.</div>
+      <div className="subseccion_titulo">2.4. Gestión conflictos.</div>
       Si observas un conflicto entre compañeros de trabajo, no esperes a que se convierta en algo peor, comunícalo cuanto antes para poder resolverlo mediante diálogo y negociación.
       <br></br><br></br>En ese momento, se convocará una reunión con los trabajadores y se hará un debate sobre el problema hasta acordar una solución final en la que estén de acuerdo todas las partes implicadas.
       <LottiePrimerdia></LottiePrimerdia>
-      <div id="primerdia" class="seccion_titulo">3. Mi primer día de trabajo</div>
-      <div class="subseccion_titulo">3.1. Jornada.</div>
+      <div id="primerdia" className="seccion_titulo">3. Mi primer día de trabajo</div>
+      <br></br><br></br>
+      <div className="subseccion_titulo">3.1. Jornada.</div>
       En nuestra empresa nos caracterizamos por tratar bien a nuestros trabajadores, a diferencia de la inmensa mayoría de la competencia. Es por ello, que la jornada laboral es de 8 horas diarias y 40 horas semanales, con posibilidad de realizar horas extra con un máximo de 1 hora al día y estando siempre retribuidas, como es lógico. La jornada laboral es de 8 horas, es decir, que no se te molestará con temas relacionados con el trabajo fuera de jornada en ningún caso, salvo que sea algo verdaderamente urgente.
       <br></br><br></br>Durante estas jornadas, habrá algunas ocasiones en las que se reservará una hora para fomentar el compañerismo y las buenas relaciones entre los compañeros de trabajo.
       <br></br><br></br>
-      <div class="subseccion_titulo">3.2. Horarios.</div>
+      <div className="subseccion_titulo">3.2. Horarios.</div>
       
       El horario de trabajo será fijo, de 7 de la mañana a 3 de la tarde todas las semanas de lunes a viernes salvo festivos, con posibilidad de coger vacaciones de 30 días en julio o agosto.
       <br></br><br></br>
-      <div class="subseccion_titulo">3.3. Incidencias (citas médicas...).</div>
+      <div className="subseccion_titulo">3.3. Incidencias (citas médicas...).</div>
       En caso de tener un problema médico justificado, te podrás ausentar del trabajo el tiempo necesario previo aviso, sin que esto afecte en modo alguno al salario.
       <br></br>Lo mismo se aplicaría si tuvieras que atender una urgencia familiar.
       <br></br><br></br>
-      <div class="subseccion_titulo">3.4. A quien contactar en caso de dudas.</div>
+      <div className="subseccion_titulo">3.4. A quien contactar en caso de dudas.</div>
       El primer día, habrá una persona que será la encargada de mostrarte las instalaciones, de presentarte a tus compañeros y al resto del personal y de proporcionarte los aspectos básicos para la configuración de tu entorno de trabajo. Si tienes alguna duda, cualquier compañero de trabajo estará dispuesto a ayudarte, aunque el encargado principal de resolver tus dudas será el coordinador de personal.
       
       <LottieConfiguration></LottieConfiguration>
-      <div id="comotrabajar" class="seccion_titulo">4. Cómo trabajar.</div>
-      <div class="subseccion_titulo">4.1. Herramientas de software y licencias.</div>
+      <div id="comotrabajar" className="seccion_titulo">4. Cómo trabajar.</div>
+      <br></br><br></br>
+      <div className="subseccion_titulo">4.1. Herramientas de software y licencias.</div>
       Para facilitarte el trabajo empleamos una serie de herramientas que consideramos apropiadas para cada uno de sus ámbitos y que te permitirán interactuar con los otros miembros del equipo.
 
       <br></br><br></br>Las herramientas que debes instalar y poner a punto para ponerte manos a la obra cuanto antes son las siguientes:
-      <span class="tabulador">
+      <span className="tabulador">
       <br></br> <i>1. Slack:</i> como herramienta de comunicación.
       <br></br> <i>2. Discord:</i> para reuniones de voz y vídeo.
       <br></br>  <i>3. Google Drive:</i> para compartir documentación.
@@ -112,7 +115,7 @@ function App() {
 
       <br></br><br></br> En cuanto a las licencias, para la mayoría de ellas usaremos la versión gratuita.En el caso de que seas estudiante, para GitHub te recomendamos que uses la versión pro de la que dispones como estudiante con el GitHub Student Developer Pack.
       <br></br><br></br>
-      <div class="subseccion_titulo">4.2. Comunicación.</div>
+      <div className="subseccion_titulo">4.2. Comunicación.</div>
       Algunas de las herramientas nombradas te facilitarán la comunicación con tu equipo y la realización de tareas y actividades de un proyecto. 
 
       <br></br><br></br>Para comunicaciones internas dispondrás de Slack y recuerda usar el canal apropiado, y a ser posible, mencionar a las personas que quieres que lean el mensaje para que sean notificadas. También te recomendamos activar extensiones de Slack como Google Drive, GitHub o Google Calendar para que se te avise en un canal de las modificaciones o comentarios que se realizan en estas plataformas y puedas estar al día.
@@ -123,7 +126,7 @@ function App() {
 
       <br></br><br></br>En cuanto a las reuniones, se convocarán por un canal de Slack y además se incorporarán a Google Calendar. Debes ser puntual y mirarte los puntos indicados antes de asistir para poder opinar y encontrar entre todos la mejor solución.
       <br></br><br></br>
-      <div class="subseccion_titulo">4.3. Metodología de trabajo.</div>
+      <div className="subseccion_titulo">4.3. Metodología de trabajo.</div>
       Para los proyectos de desarrollo software usaremos la metodología ágil Scrum, con la que suponemos que ya estás familiarizado.
 
       <br></br><br></br>Si no es así, en la metodología Scrum se trabajará por iteraciones de una duración fija llamada sprint. Las tareas a realizar se encuentran en el Product Backlog y en cada sprint se selecciona un subconjunto para el Sprint Backlog. Dichas tareas las priorizaremos en equipo en la reunión Sprint Meeting usando la metodología poker. La metodología poker consiste en definir, en comuna, la estimación de esfuerzo o tamaño de cada una de las tareas que se encuentran en el Sprint Backlog. 
@@ -136,15 +139,16 @@ function App() {
         </span>
         <br></br> Tu supervisor será el Scrum Master, que velará por que sigas las directrices de Scrum y el Product Owner es el encargado de representar los intereses del cliente.
         <br></br><br></br>
-      <div class="subseccion_titulo">4.4. Trabajar en un proyecto.</div>
+      <div className="subseccion_titulo">4.4. Trabajar en un proyecto.</div>
       Cuando te embarques en un proyecto, tus tareas se te asignarán en un tablero KanBan alojado en GitHub. Es importante que muevas las tareas para que el resto de compañeros sepan cómo va tu trabajo.
 
 	    <br></br><br></br>Si terminas tus tareas con tiempo de sobra, se lo debes comentar a tu coordinador, que decidirá si asignarte otra tarea o bien si puedes ayudar a algún compañero que tenga dificultades.
 
       <br></br><br></br>
       <LottieCovid></LottieCovid>
-      <div id="covid" class="seccion_titulo">5. Covid.</div>
-      <div class="subseccion_titulo">5.1. Medidas prevención.</div>
+      <div id="covid" className="seccion_titulo">5. Covid.</div>
+      <br></br><br></br>
+      <div className="subseccion_titulo">5.1. Medidas prevención.</div>
       
       Desde siempre hemos velado por la seguridad y la comodidad de nuestros empleados. Sin embargo, debido a la situación en la que nos encontramos, debemos dar un esfuerzo extra. Por ello te exponemos las adaptaciones y medidas que hemos establecido con el fin de prevenir contagios en el entorno laboral:
       <span className="tabulador">
@@ -163,33 +167,31 @@ function App() {
      
  
       </div>
-      {window.onload=()=>{
+      {
+      window.onload=()=>{
+        //Esta función la usamos para ir al elemento determinado
         function hazfocus(idhacia) {
           let hacia = document.getElementById(idhacia);
-          hacia.scrollIntoView();       
+          hacia.scrollIntoView(); 
+          
       }
+      //Mostrar los elementos del indice
+      document.getElementById("logo").onclick=()=> document.getElementById("container").scrollTo(0,0);
       document.getElementById("botonIntro").onclick=()=> hazfocus("intro");
       document.getElementById("botonFilo").onclick=()=> hazfocus("filosofia");
       document.getElementById("botonprimerdia").onclick=()=> hazfocus("primerdia");
       document.getElementById("botoncomotrabajar").onclick=()=> hazfocus("comotrabajar");
       document.getElementById("botoncovid").onclick=()=> hazfocus("covid");
-      document.getElementById("container").addEventListener("scroll",()=>{
-        let intro = document.getElementById("intro");
-        var element_height = window.innerHeight;
-      },false);
+      
       var menuold;
       var seemenu=false;
       var uno =false;
-      var waypoint = new Waypoint({
-        element: document.getElementById('primerdia'),
-        handler: function() {
-          console.log("has entrado en el primerdia")
-        }
-      })
+      //Si el menú esta desplegado lo esconde
       window.onclick=()=>{
         if(seemenu&&uno){
           document.getElementById("container").opacity=1;
           let menu = document.getElementById("menu");
+          
           menu.style=menuold;
           seemenu=false;
           uno = false;
@@ -199,9 +201,12 @@ function App() {
         uno=true;
         return 0;
       }
+      
+      
+      //despliega el menú en el movil
       document.getElementById("bocadillo").addEventListener("click",()=>{
         let menu = document.getElementById("menu");
-
+        
         menuold=getComputedStyle(menu);
         menu.style.width="100%";
         seemenu=true;
@@ -209,10 +214,7 @@ function App() {
         menu.style.opacity=1;
       }, true)
       
-      
-      
-        
-
+    
       
       }
       }
