@@ -22,7 +22,7 @@ function App() {
         <hr></hr>
         <button id="botoncomotrabajar"  className="boton_menu">4. Cómo trabajar</button>
         <hr></hr>
-        <button id="botoncovid" className="boton_menu">5. Covid</button>
+        <button id="botoncovid" className="boton_menu">5. Prevención COVID-19.</button>
       </div>
       <div id="container">
         <LottieWelcome></LottieWelcome>
@@ -31,6 +31,7 @@ function App() {
       <div id="intro" className="seccion_titulo">1. Introducción</div>
       <br></br><br></br>
       <div className="subseccion_titulo">1.1. Presentación.</div>
+      <br></br>
       ¡Hola, bienvenido/a a nuestro equipo!
       <br></br><br></br>Hoy, queremos darte la bienvenida a nuestro equipo y desearte mucha suerte en esta nueva etapa profesional.
       <br></br><br></br>Este manual está pensado para ti, para que como nuevo integrante de nuestra empresa, dispongas de toda la información que necesites en tu nuevo puesto de trabajo.
@@ -47,6 +48,7 @@ function App() {
       <div id="filosofia" className="seccion_titulo">2. Filosofía de la empresa</div>
       <br></br><br></br>
       <div className="subseccion_titulo">2.1. Valores de la empresa.</div>
+      <br></br>
       <div className="subseccion_descripcion">Queremos que los nuevos miembros sepan nuestros valores los cuales defendemos hasta último término. A continuación numeraremos cada uno:
       <br></br><br></br><span className="tabulador"><span className="negrita">1.	Honestidad:</span> la transparencia, la sinceridad y la franqueza es una responsabilidad nuestra para con los empleados y esperamos lo mismo de ellos.
       <br></br><span className="negrita">2.	Calidad:</span> Intentamos que los productos cumplan siempre con los parámetros establecidos y prometidos.
@@ -59,6 +61,7 @@ function App() {
       </div>
       <br></br><br></br>
       <div className="subseccion_titulo">2.2. Reacción ante fallos.</div>
+      <br></br>
       <div className="subseccion_descripcion">
       Si tienes errores o “metes la pata” no queremos que te preocupe, y preferimos a que hagas algo a que no lo hagas por mierdo a que no esté corrector. Errar es humano, hasta en la directiva ocurre. No podriamos esperar un buen trabajador si tuviera miedo a equivocarse, queremos que tengas total libertad para ello.
       <br></br><br></br>Equivocarse no es más que una forma de aprender, se te dirá tu error pero no en forma de reprimenda ni mucho menos, si no para que puedas aprender de ello y verás como poco a poco los errores empiezan a ser menos frecuentes.
@@ -68,36 +71,43 @@ function App() {
       </div>
       <br></br><br></br>
       <div className="subseccion_titulo">2.3. Colaboración en equipo.</div>
+      <br></br>
       Trabajar en equipo permite que los empleados sean más rápidos y efectivos en su trabajo, por eso en nuestra empresa promovemos la colaboración entre nuestros trabajadores.
       <br></br><br></br>Para ello debes mantener un buen trato con tus compañeros, escuchar con atención las opiniones de los demás y respetarlas.
       <br></br><br></br>Si te surge alguna duda puedes consultar a cualquiera de tus compañeros y ellos se encargarán de ayudarte.
       <br></br><br></br>Todos los miembros del equipo trabajan hacia el logro de una misma meta pensando, intercambiando ideas y ofreciendo diferentes perspectivas para brindar soluciones. Cada miembro tiene oportunidades equitativas de participar y comunicar sus ideas.
       <br></br><br></br>
       <div className="subseccion_titulo">2.4. Gestión conflictos.</div>
+      <br></br>
       Si observas un conflicto entre compañeros de trabajo, no esperes a que se convierta en algo peor, comunícalo cuanto antes para poder resolverlo mediante diálogo y negociación.
       <br></br><br></br>En ese momento, se convocará una reunión con los trabajadores y se hará un debate sobre el problema hasta acordar una solución final en la que estén de acuerdo todas las partes implicadas.
       <LottiePrimerdia></LottiePrimerdia>
       <div id="primerdia" className="seccion_titulo">3. Mi primer día de trabajo</div>
       <br></br><br></br>
       <div className="subseccion_titulo">3.1. Jornada.</div>
+      <br></br>
       En nuestra empresa nos caracterizamos por tratar bien a nuestros trabajadores, a diferencia de la inmensa mayoría de la competencia. Es por ello, que la jornada laboral es de 8 horas diarias y 40 horas semanales, con posibilidad de realizar horas extra con un máximo de 1 hora al día y estando siempre retribuidas, como es lógico. La jornada laboral es de 8 horas, es decir, que no se te molestará con temas relacionados con el trabajo fuera de jornada en ningún caso, salvo que sea algo verdaderamente urgente.
       <br></br><br></br>Durante estas jornadas, habrá algunas ocasiones en las que se reservará una hora para fomentar el compañerismo y las buenas relaciones entre los compañeros de trabajo.
       <br></br><br></br>
       <div className="subseccion_titulo">3.2. Horarios.</div>
+      <br></br>
       
       El horario de trabajo será fijo, de 7 de la mañana a 3 de la tarde todas las semanas de lunes a viernes salvo festivos, con posibilidad de coger vacaciones de 30 días en julio o agosto.
       <br></br><br></br>
       <div className="subseccion_titulo">3.3. Incidencias (citas médicas...).</div>
+      <br></br>
       En caso de tener un problema médico justificado, te podrás ausentar del trabajo el tiempo necesario previo aviso, sin que esto afecte en modo alguno al salario.
       <br></br>Lo mismo se aplicaría si tuvieras que atender una urgencia familiar.
       <br></br><br></br>
       <div className="subseccion_titulo">3.4. A quien contactar en caso de dudas.</div>
+      <br></br>
       El primer día, habrá una persona que será la encargada de mostrarte las instalaciones, de presentarte a tus compañeros y al resto del personal y de proporcionarte los aspectos básicos para la configuración de tu entorno de trabajo. Si tienes alguna duda, cualquier compañero de trabajo estará dispuesto a ayudarte, aunque el encargado principal de resolver tus dudas será el coordinador de personal.
       
       <LottieConfiguration></LottieConfiguration>
       <div id="comotrabajar" className="seccion_titulo">4. Cómo trabajar.</div>
       <br></br><br></br>
       <div className="subseccion_titulo">4.1. Herramientas de software y licencias.</div>
+      <br></br>
       Para facilitarte el trabajo empleamos una serie de herramientas que consideramos apropiadas para cada uno de sus ámbitos y que te permitirán interactuar con los otros miembros del equipo.
 
       <br></br><br></br>Las herramientas que debes instalar y poner a punto para ponerte manos a la obra cuanto antes son las siguientes:
@@ -116,6 +126,7 @@ function App() {
       <br></br><br></br> En cuanto a las licencias, para la mayoría de ellas usaremos la versión gratuita.En el caso de que seas estudiante, para GitHub te recomendamos que uses la versión pro de la que dispones como estudiante con el GitHub Student Developer Pack.
       <br></br><br></br>
       <div className="subseccion_titulo">4.2. Comunicación.</div>
+      <br></br>
       Algunas de las herramientas nombradas te facilitarán la comunicación con tu equipo y la realización de tareas y actividades de un proyecto. 
 
       <br></br><br></br>Para comunicaciones internas dispondrás de Slack y recuerda usar el canal apropiado, y a ser posible, mencionar a las personas que quieres que lean el mensaje para que sean notificadas. También te recomendamos activar extensiones de Slack como Google Drive, GitHub o Google Calendar para que se te avise en un canal de las modificaciones o comentarios que se realizan en estas plataformas y puedas estar al día.
@@ -127,6 +138,7 @@ function App() {
       <br></br><br></br>En cuanto a las reuniones, se convocarán por un canal de Slack y además se incorporarán a Google Calendar. Debes ser puntual y mirarte los puntos indicados antes de asistir para poder opinar y encontrar entre todos la mejor solución.
       <br></br><br></br>
       <div className="subseccion_titulo">4.3. Metodología de trabajo.</div>
+      <br></br>
       Para los proyectos de desarrollo software usaremos la metodología ágil Scrum, con la que suponemos que ya estás familiarizado.
 
       <br></br><br></br>Si no es así, en la metodología Scrum se trabajará por iteraciones de una duración fija llamada sprint. Las tareas a realizar se encuentran en el Product Backlog y en cada sprint se selecciona un subconjunto para el Sprint Backlog. Dichas tareas las priorizaremos en equipo en la reunión Sprint Meeting usando la metodología poker. La metodología poker consiste en definir, en comuna, la estimación de esfuerzo o tamaño de cada una de las tareas que se encuentran en el Sprint Backlog. 
@@ -140,16 +152,18 @@ function App() {
         <br></br> Tu supervisor será el Scrum Master, que velará por que sigas las directrices de Scrum y el Product Owner es el encargado de representar los intereses del cliente.
         <br></br><br></br>
       <div className="subseccion_titulo">4.4. Trabajar en un proyecto.</div>
+      <br></br>
       Cuando te embarques en un proyecto, tus tareas se te asignarán en un tablero KanBan alojado en GitHub. Es importante que muevas las tareas para que el resto de compañeros sepan cómo va tu trabajo.
 
 	    <br></br><br></br>Si terminas tus tareas con tiempo de sobra, se lo debes comentar a tu coordinador, que decidirá si asignarte otra tarea o bien si puedes ayudar a algún compañero que tenga dificultades.
 
       <br></br><br></br>
       <LottieCovid></LottieCovid>
-      <div id="covid" className="seccion_titulo">5. Covid.</div>
+      <div id="covid" className="seccion_titulo">5. Prevención COVID-19.</div>
       <br></br><br></br>
       <div className="subseccion_titulo">5.1. Medidas prevención.</div>
       
+      <br></br>
       Desde siempre hemos velado por la seguridad y la comodidad de nuestros empleados. Sin embargo, debido a la situación en la que nos encontramos, debemos dar un esfuerzo extra. Por ello te exponemos las adaptaciones y medidas que hemos establecido con el fin de prevenir contagios en el entorno laboral:
       <span className="tabulador">
       <br></br>  <span className="negrita">1. Uso obligatorio de mascarilla</span> en todos los espacios comunes y siempre que no se pueda respetar la distancia de seguridad de 2 metros.
