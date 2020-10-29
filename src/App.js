@@ -95,7 +95,7 @@ function App() {
       <br></br><br></br>
       <div className="subseccion_titulo">3.3. Incidencias (citas médicas...).</div>
       <br></br>
-      En caso de tener un problema médico justificado, te podrás ausentar del trabajo el tiempo necesario previo aviso, sin que esto afecte en modo alguno al salario.
+      En caso de tener un problema médico justificado, te podrás ausentar del trabajo el tiempo necesario previo aviso.
       <br></br>Lo mismo se aplicaría si tuvieras que atender una urgencia familiar.
       <br></br><br></br>
       <div className="subseccion_titulo">3.4. A quien contactar en caso de dudas.</div>
