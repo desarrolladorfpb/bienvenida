@@ -91,7 +91,7 @@ function App() {
       <div className="subseccion_titulo">3.2. Horarios.</div>
       <br></br>
       
-      El horario de trabajo será variable según las circunstancias de cada uno, siempre que se cumpla con el trabajo necesario de cara a las fechas límite que se acuerden colectivamente.<br></br><br></br>
+      El horario de trabajo será variable según las circunstancias de cada uno, siempre que se cumpla con el trabajo necesario de cara a las fechas límite que se acuerden colectivamente.
       <br></br><br></br>
       <div className="subseccion_titulo">3.3. Incidencias (citas médicas...).</div>
       <br></br>
