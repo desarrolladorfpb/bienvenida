@@ -86,13 +86,12 @@ function App() {
       <br></br><br></br>
       <div className="subseccion_titulo">3.1. Jornada.</div>
       <br></br>
-      En nuestra empresa nos caracterizamos por tratar bien a nuestros trabajadores, a diferencia de la inmensa mayoría de la competencia. Es por ello, que la jornada laboral es de 8 horas diarias y 40 horas semanales, con posibilidad de realizar horas extra con un máximo de 1 hora al día y estando siempre retribuidas, como es lógico. La jornada laboral es de 8 horas, es decir, que no se te molestará con temas relacionados con el trabajo fuera de jornada en ningún caso, salvo que sea algo verdaderamente urgente.
-      <br></br><br></br>Durante estas jornadas, habrá algunas ocasiones en las que se reservará una hora para fomentar el compañerismo y las buenas relaciones entre los compañeros de trabajo.
+      En nuestra empresa nos caracterizamos por tratar bien a nuestros trabajadores, a diferencia de la inmensa mayoría de la competencia. Es por ello, que la jornada laboral es de 10 horas semanales.
       <br></br><br></br>
       <div className="subseccion_titulo">3.2. Horarios.</div>
       <br></br>
       
-      El horario de trabajo será fijo, de 7 de la mañana a 3 de la tarde todas las semanas de lunes a viernes salvo festivos, con posibilidad de coger vacaciones de 30 días en julio o agosto.
+      El horario de trabajo será variable según las circunstancias de cada uno, siempre que se cumpla con el trabajo necesario de cara a las fechas límite que se acuerden colectivamente.<br></br><br></br>
       <br></br><br></br>
       <div className="subseccion_titulo">3.3. Incidencias (citas médicas...).</div>
       <br></br>
