@@ -17,3 +17,7 @@
 2020.10.29 13:35:20 INFO  started: Metals version 0.9.4 in workspace 'C:\Users\franc\OneDrive\Documentos\GitHub\bienvenida' for client vscode.
 2020.10.29 13:35:23 INFO  time: initialize in 2.48s
 2020.10.29 13:35:26 WARN  no build tool detected in workspace 'C:\Users\franc\OneDrive\Documentos\GitHub\bienvenida'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.29 14:32:13 INFO  shutting down Metals
+2020.10.30 19:12:03 INFO  started: Metals version 0.9.4 in workspace 'C:\Users\franc\OneDrive\Documentos\GitHub\bienvenida' for client vscode.
+2020.10.30 19:12:15 INFO  time: initialize in 11s
+2020.10.30 19:12:30 WARN  no build tool detected in workspace 'C:\Users\franc\OneDrive\Documentos\GitHub\bienvenida'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 

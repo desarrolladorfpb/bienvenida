@@ -63,7 +63,7 @@ function App() {
       <div className="subseccion_titulo">2.2. Reacción ante fallos.</div>
       <br></br>
       <div className="subseccion_descripcion">
-      Si tienes errores o “metes la pata” no queremos que te preocupe, y preferimos a que hagas algo a que no lo hagas por mierdo a que no esté corrector. Errar es humano, hasta en la directiva ocurre. No podriamos esperar un buen trabajador si tuviera miedo a equivocarse, queremos que tengas total libertad para ello.
+      Si tienes errores o “metes la pata” no queremos que te preocupe, y preferimos a que hagas algo a que no lo hagas por miedo a que no esté correcto. Errar es humano, hasta en la directiva ocurre. No podriamos esperar un buen trabajador si tuviera miedo a equivocarse, queremos que tengas total libertad para ello.
       <br></br><br></br>Equivocarse no es más que una forma de aprender, se te dirá tu error pero no en forma de reprimenda ni mucho menos, si no para que puedas aprender de ello y verás como poco a poco los errores empiezan a ser menos frecuentes.
       <br></br><br></br>Hay muchas formas de fracasar, en ningún caso el error es un fracaso, el fracaso está en no aprender de ello.
       <br></br><br></br>Y si el equipo en su conjunto se equivoca debe encontrar la forma de solucionarlo desde la concordia, comunicandose con los representantes.
@@ -91,7 +91,7 @@ function App() {
       <div className="subseccion_titulo">3.2. Horarios.</div>
       <br></br>
       
-      El horario de trabajo será variable según las circunstancias de cada uno, siempre que se cumpla con el trabajo necesario de cara a las fechas límite que se acuerden colectivamente.
+      El horario de trabajo será variable según las circunstancias de cada uno, siempre que se cumpla con el trabajo necesario de cara a las fechas límites que se acuerden colectivamente.
       <br></br><br></br>
       <div className="subseccion_titulo">3.3. Incidencias (citas médicas...).</div>
       <br></br>
@@ -100,7 +100,7 @@ function App() {
       <br></br><br></br>
       <div className="subseccion_titulo">3.4. A quien contactar en caso de dudas.</div>
       <br></br>
-      El primer día, habrá una persona que será la encargada de mostrarte las instalaciones, de presentarte a tus compañeros y al resto del personal y de proporcionarte los aspectos básicos para la configuración de tu entorno de trabajo. Si tienes alguna duda, cualquier compañero de trabajo estará dispuesto a ayudarte, aunque el encargado principal de resolver tus dudas será el coordinador de personal.
+      El primer día, habrá una persona que será la encargada de mostrarte las instalaciones, de presentarte a tus compañeros y al resto del personal, además de proporcionarte los aspectos básicos para la configuración de tu entorno de trabajo. Si tienes alguna duda, cualquier compañero de trabajo estará dispuesto a ayudarte, aunque el encargado principal de resolver tus dudas será el coordinador de personal.
       
       <LottieConfiguration></LottieConfiguration>
       <div id="comotrabajar" className="seccion_titulo">4. Cómo trabajar.</div>
@@ -122,11 +122,11 @@ function App() {
       </span>
       <br></br><br></br> Estas herramientas deberás usarlas de forma correcta y con cierta maestría, para que tu trabajo sea de calidad. En caso de tengas dudas con alguna de estas herramientas, simplemente ponte en contacto con cualquier compañero o con tu coordinador para que pueda ayudarte. 
 
-      <br></br><br></br> En cuanto a las licencias, para la mayoría de ellas usaremos la versión gratuita.En el caso de que seas estudiante, para GitHub te recomendamos que uses la versión pro de la que dispones como estudiante con el GitHub Student Developer Pack.
+      <br></br><br></br> En cuanto a las licencias, para la mayoría de ellas usaremos la versión gratuita. En el caso de que seas estudiante, para GitHub te recomendamos que uses la versión pro de la que dispones como estudiante con el GitHub Student Developer Pack.
       <br></br><br></br>
       <div className="subseccion_titulo">4.2. Comunicación.</div>
       <br></br>
-      Algunas de las herramientas nombradas te facilitarán la comunicación con tu equipo y la realización de tareas y actividades de un proyecto. 
+      Algunas de las herramientas nombradas te facilitarán la comunicación con tu equipo, la realización de tareas y actividades de un proyecto. 
 
       <br></br><br></br>Para comunicaciones internas dispondrás de Slack y recuerda usar el canal apropiado, y a ser posible, mencionar a las personas que quieres que lean el mensaje para que sean notificadas. También te recomendamos activar extensiones de Slack como Google Drive, GitHub o Google Calendar para que se te avise en un canal de las modificaciones o comentarios que se realizan en estas plataformas y puedas estar al día.
 
@@ -172,7 +172,7 @@ function App() {
       <br></br><span className="negrita"> 3. No superar el aforo máximo permitido de las zonas comunes.</span>
       </span>
       <br></br>Además de estas medidas, nos comprometemos a poner a tu disposición todas las facilidades posibles en el caso de que necesites llevar a cabo tu trabajo desde casa, ya sea debido a problemas de conciliación familiar, que tengas patologías previas o necesidades psicológicas. 
-      <br></br><br></br><span className="negrita">Te ofrecemos la opción de teletrabajo.</span>Tendrás a tu disposición siempre las herramientas necesarias para realizar correctamente tus tareas de forma telemática, teniendo un servicio de soporte en el caso de incidencias.
+      <br></br><br></br><span className="negrita">Te ofrecemos la opción de teletrabajo.</span> Tendrás a tu disposición siempre las herramientas necesarias para realizar correctamente tus tareas de forma telemática, teniendo un servicio de soporte en el caso de incidencias.
       <br></br><br></br>
 
 
@@ -188,6 +188,7 @@ function App() {
           hacia.scrollIntoView(); 
           
       }
+      console.log("Manual elaborado para la asignatura ''Planificación y Gestión de Proyectos Informáticos'' por el grupo 18")
       //Mostrar los elementos del indice
       document.getElementById("logo").onclick=()=> document.getElementById("container").scrollTo(0,0);
       document.getElementById("botonIntro").onclick=()=> hazfocus("intro");
